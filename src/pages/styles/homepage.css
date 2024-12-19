@@ -44,11 +44,12 @@
 .homepage-image-wrapper {
 	overflow: hidden;
 	border-radius: 10%;
-	transform: rotate(3deg);
+	/* transform: rotate(3deg); */
 }
 
 .homepage-image-wrapper img {
-	width: 100%;
+	width: 370px;
+	height: 370px;
 }
 
 .homepage-socials {
@@ -91,6 +92,12 @@
 .homepage-works {
 	flex-basis: 600px;
 	padding-top: 30px;
+}
+
+.homepage-education {
+	flex-basis: 900px;
+	padding-top: 30px;
+	margin-left: -30px;
 }
 
 @media (max-width: 1024px) {
@@ -146,5 +153,9 @@
 		flex-basis: auto;
 		margin-left: -25px;
 		margin-right: -25px;
+	}
+
+	.homepage-education {
+		flex-basis: auto;
 	}
 }

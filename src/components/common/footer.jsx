@@ -16,10 +16,7 @@ const Footer = () => {
 							<Link to="/about">About</Link>
 						</li>
 						<li className="footer-nav-link-item">
-							<Link to="/projects">Projects</Link>
-						</li>
-						<li className="footer-nav-link-item">
-							<Link to="/articles">Articles</Link>
+							<Link to="/experiences">Experiences</Link>
 						</li>
 						<li className="footer-nav-link-item">
 							<Link to="/contact">Contact</Link>
@@ -29,7 +26,7 @@ const Footer = () => {
 
 				<div className="footer-credits">
 					<div className="footer-credits-text">
-						© 2023 Tharindu.dev. All Rights Reserved.
+						© 2024 Istiak Ahmed. All Rights Reserved.
 					</div>
 				</div>
 			</div>

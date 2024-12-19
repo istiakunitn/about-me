@@ -1,30 +1,30 @@
 const INFO = {
 	main: {
-		title: "Reactfolio by truethari",
-		name: "Tharindu N.",
-		email: "mail@tharindu.dev",
+		title: "About me of Istiak Ahmed",
+		name: "Istiak Ahmed",
+		email: "istiak.aiub.08@gmail.com",
 		logo: "../logo.png",
 	},
 
 	socials: {
-		twitter: "https://twitter.com/",
-		github: "https://github.com/",
-		linkedin: "https://linkedin.com/",
-		instagram: "https://instagram.com/",
+		twitter: "https://x.com/istiakunitn",
+		github: "https://github.com/istiakunitn",
+		linkedin: "https://www.linkedin.com/in/istiakahmed/",
+		instagram: "https://www.instagram.com/istiak.ah/",
 		stackoverflow: "https://stackoverflow.com/",
 		facebook: "https://facebook.com/",
 	},
 
 	homepage: {
-		title: "Full-stack web and mobile app developer, and amateur astronaut.",
+		title: "Backend developer and passionate learner",
 		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
+			"I am a passionate developer keen on facing new challenges, because I believe challenges lead to growth. Over the last five years, I have been working on several projects with different startups within the agile environment mostly using Ruby on Rails but also other technologies like Node JS, Angular JS, Vue JS etc. My core derives me as becoming a developer and not a web designer . In fact, writing APIs is where I shine the most using my SQL/NoSQL knowledge. I always love to write clean, efficient code and also provide readable and reliable tests for each scenario.",
 	},
 
 	about: {
-		title: "I’m Tharindu N. I live in Sri Lanka, where I design the future.",
+		title: "I'm Istiak Ahmed, based in Italy, with several years of working experience",
 		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
+			"Over the last six years, I have worked on several projects with different startups in agile environments, primarily using Ruby on Rails, along with other technologies such as PHP, Node.js, Java etc. My passion lies in being a developer rather than a web designer. In fact, my expertise shines in writing APIs, where I leverage my knowledge of SQL and NoSQL databases. Backend was my main focus in the past years but I also worked on many frontend applications in many companies using vanilla javascript, AngularJS, ReactJS and VueJS if needed. I am dedicated to writing clean, efficient code and ensuring each scenario is supported by readable and reliable tests. On a personal level, I consider myself precise, reliable, and collaborative. I am capable of creating and completing projects both independently and in group settings, optimizing resources while adhering to deadlines and priorities.",
 	},
 
 	articles: {
@@ -77,6 +77,57 @@ const INFO = {
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
 			link: "https://github.com",
+		},
+	],
+	experiences: [
+		{
+			title: "Backend developer, OSLO Italia SRL",
+			years: "2023-2024",
+			description:
+				"During this work my role was to implement a new system using rails ActionCable where a group of data scientists could collaborate simultaneously for collecting, normalizing and integrating all the administrative, healthcare or territorial data.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+			WorkingStacks: "jRuby, Ruby, Rails, Git, GitLab, OracleDB, Docker, Kubernetes, Wildfly.",
+			link: "https://www.oslo.it/it-it/home",
+		},
+
+		{
+			title: "Backend Developer, Helbiz Italia SRL",
+			years: "2022-2023",
+			description:
+				"Helbiz operates in the micro-mobility sector across the US and Europe, expanding its services through acquisitions and initiatives like HelbizKitchen and a taxi solution in partnership with WeTaxi. My role involved developing new APIs, improving existing ones, and fixing bugs in various microservices within a collaborative team.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+			WorkingStacks: "Node.js, JavaScript, Git, GitLab, MongoDB, NoSQL, AWS, Serverless.",
+			link: "https://helbiz.com/it",
+		},
+
+		{
+			title: "Software Developer, Pazienti ORG SRL",
+			years: "2020-2022",
+			description:
+				"Pazienti is a health platform where users can access health news and book video consultations with over 8,000 active doctors from various specialties at an affordable cost.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
+			WorkingStacks: "Ruby, Rails, PHP, AngularJS, JavaScript, Node.js, Git, MySQL, AWS, HTML5, CSS3.",
+			link: "https://www.pazienti.it/",
+		},
+
+		{
+			title: "Software Developer",
+			years: "2017-2019",
+			description:
+				"Fit2You is a car insurance provider that partners with traditional insurers to deliver customized policies. The company empowers dealers across Italy to sell tailored insurance through a dedicated platform.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+			WorkingStacks: "Ruby, Rails, Node.js, React.js, AngularJS, JavaScript, Git, PostgreSQL, MongoDB, AWS, HTML5, CSS3.",
+			link: "https://fit2you.it/",
+		},
+
+		{
+			title: "Research Student, DICAM, University of Trento, Italy",
+			years: "2015-2017",
+			description:
+				"After completing my master's degree, I joined the Hazard Mitigation, Structural Dynamics, and Control (HMSDC) research group. I actively contributed to several European and Italian distributed projects, utilizing technologies such as Ruby on Rails, PostgreSQL, PHP, MySQL, and WordPress. My role focused on designing and developing distributed applications using the latest technologies.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+			WorkingStacks: "MySQL, Ruby, PHP, WordPress",
+			link: "https://r.unitn.it/en/dicam/nhmsdc",
 		},
 	],
 };
